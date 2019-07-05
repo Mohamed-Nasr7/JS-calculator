@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cal{
+    margin: 20px 0 0 45% ;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer
+}
+
+
+.txt{
+    width: 205px;
+    height: 50px;
+    margin: 5px 0 10px 3px;
+    font-size: 30px;
+    padding: 5px;
+    background-color: white
+}
+

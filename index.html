@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    
+        
+        <div class="cal">
+            <form>
+                <input class="txt" id="txt" name="viewtxt" disabled>
+            </form>
+            
+            <table>
+                <tr>
+                    <td><input type="button" value="C" class="btn" onclick="clr()"></td>
+                    <td><input type="button" value="<" class="btn" onclick="back()"></td>
+                    <td><input type="button" value="/" class="btn" onclick="showRes('/')"></td>
+                    <td><input type="button" value="*" class="btn" onclick="showRes('*')"></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="button" value="7" class="btn" onclick="showRes(7)"></td>
+                    <td><input type="button" value="8" class="btn" onclick="showRes(8)"></td>
+                    <td><input type="button" value="9" class="btn" onclick="showRes(9)"></td>
+                    <td><input type="button" value="-" class="btn" onclick="showRes('-')"></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="button" value="4" class="btn" onclick="showRes(4)"></td>
+                    <td><input type="button" value="5" class="btn" onclick="showRes(5)"></td>
+                    <td><input type="button" value="6" class="btn" onclick="showRes(6)"></td>
+                    <td><input type="button" value="+" class="btn" onclick="showRes('+')"></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="button" value="1" class="btn" onclick="showRes(1)"></td>
+                    <td><input type="button" value="2" class="btn" onclick="showRes(2)"></td>
+                    <td><input type="button" value="3" class="btn" onclick="showRes(3)"></td>
+                    <td><input type="button" value="=" class="btn" onclick="equal()"></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="button" value="0" class="btn" onclick="showRes(0)"></td>
+                    <td><input type="button" value="." class="btn" onclick="showRes('.')"></td>
+                </tr>
+            </table>
+            
+            
+        </div>
+        
+        <script src="main.js"></script>
+    
+</body>
+</html>
